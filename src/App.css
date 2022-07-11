@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* AQUI EMPIEZA EL CSS */
+.portada{
+  display:flex;
+  background-color: rgb(87, 84, 84);
+  height: 600px;
+  width: 100%;
+}
+.portada__superior{
+  position: absolute;
+  top:0px;
+  display:flex;
+  width: 100%;
+  height: 100px;
+}
+.portada__info{
+ 
+  display: flex;
+  width: 400px;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.title{
+  color:white;
+  font-size:60px;
+}
+.info{
+  color:white;
+  font-size:30px;
+}
+.imgLogo{
+  position: absolute;
+  top:6px;
+  left:20px;
+}
+.imgMenu{
+
+  position: absolute;
+  top:10px;
+  right:20px;
+}
+.boton{
+  border-radius:56px 56px;
+  width:300px;
+  height:120px;
+  background-color: white;
+}
+.boton h3{
+  padding-top:5px;
+  font-size:2.5em;
+  color:rgb(46, 44, 44);
+}
+.card{
+  display: flex;
+  width: 24%;
+  flex-direction: column;
+}
+.cards{
+  display:flex;
+  width:100%;
+  height:800px;
+}
+.card img{
+  width:98%;
+  height:30%;
+}
